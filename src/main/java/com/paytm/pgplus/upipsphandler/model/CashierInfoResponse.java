@@ -6,7 +6,7 @@
 package com.paytm.pgplus.upipsphandler.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.paytm.pgplus.theia.offline.model.base.BaseResponse;
+import com.paytm.pgplus.upipsphandler.model.base.BaseResponse;
 import io.swagger.annotations.ApiModel;
 
 import javax.validation.Valid;

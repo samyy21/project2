@@ -98,7 +98,7 @@ public interface IMerchantPreferenceService {
 
     boolean isReturnVPAEnabled(String merchantId);
 //
-//    boolean isPwpEnabled(String merchantId);
+    boolean isPwpEnabled(String merchantId);
 //
     boolean isReturnPrepaidEnabled(String merchantId);
 //

@@ -9,7 +9,7 @@ import com.paytm.pgplus.upipsphandler.model.NativeCashierInfoResponse;
 import java.util.Map;
 
 public interface IPayviewConsultServiceHelper<Req, Res> {
-    Res transformResponse(WorkFlowResponseBean serviceRes, CashierInfoRequest serviceReq, Req request);
+//    Res transformResponse(WorkFlowResponseBean serviceRes, CashierInfoRequest serviceReq, Req request);
 
     EntityPaymentOptionsTO getEntityPaymentOption(WorkFlowResponseBean serviceRes, String txnToken);
 

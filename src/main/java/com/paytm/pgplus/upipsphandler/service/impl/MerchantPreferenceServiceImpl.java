@@ -363,10 +363,10 @@ public class MerchantPreferenceServiceImpl implements IMerchantPreferenceService
         return isPreferenceEnabled(merchantId, RETURN_USER_VPA_IN_RESPONSE);
     }
 
-//    @Override
-//    public boolean isPwpEnabled(String merchantId) {
-//        return isPreferenceEnabled(merchantId, PAY_WITH_PAYTM);
-//    }
+    @Override
+    public boolean isPwpEnabled(String merchantId) {
+        return isPreferenceEnabled(merchantId, PAY_WITH_PAYTM);
+    }
 //
     @Override
     public boolean isReturnPrepaidEnabled(String merchantId) {
